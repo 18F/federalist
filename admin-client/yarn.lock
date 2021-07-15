@@ -536,11 +536,6 @@ domready@^1.0.8:
   resolved "https://registry.yarnpkg.com/domready/-/domready-1.0.8.tgz#91f252e597b65af77e745ae24dd0185d5e26d58c"
   integrity sha1-kfJS5Ze2Wvd+dFriTdAYXV4m1Yw=
 
-elem-dataset@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/elem-dataset/-/elem-dataset-2.0.0.tgz#4ed8b2b0217898bdf78c1a01b4eb722a1c89e799"
-  integrity sha512-e7gieGopWw5dMdEgythH3lUS7nMizutPDTtkzfQW/q2gCvFnACyNnK3ytCncAXKxdBXQWcXeKaYTTODiMnp8mw==
-
 element-closest@^2.0.1:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/element-closest/-/element-closest-2.0.2.tgz#72a740a107453382e28df9ce5dbb5a8df0f966ec"
@@ -2076,15 +2071,14 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
-uswds@^2.10.0:
-  version "2.11.2"
-  resolved "https://registry.yarnpkg.com/uswds/-/uswds-2.11.2.tgz#bf5ff132f6324c0939d01b7eefebde340c22dcec"
-  integrity sha512-JISTXCjPIlrufbObIifjrMDn5jF9bbLu7UYhGWmEs9iqB6Z2KDCXHVoBUyzMmIrIjW/UWWYHZzPqOOHO6/IMCQ==
+uswds@^2.12.0:
+  version "2.12.0"
+  resolved "https://registry.yarnpkg.com/uswds/-/uswds-2.12.0.tgz#6430ca5dc0cda01a11f37519fb8f4cd3fe88944f"
+  integrity sha512-zunOnGXVOye8CSTjzakHBTdhH+Swi6uJLD5xOcI6xmlZFgNzk5qpLdcsxrjtknELBqRUccMRAp4MIlds9QQUMw==
   dependencies:
     classlist-polyfill "^1.0.3"
     del "^6.0.0"
     domready "^1.0.8"
-    elem-dataset "^2.0.0"
     object-assign "^4.1.1"
     receptor "^1.0.0"
     resolve-id-refs "^0.1.0"
