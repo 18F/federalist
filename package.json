@@ -134,7 +134,7 @@
     "file-loader": "^6.2.0",
     "json-schema-deref-sync": "^0.14.0",
     "jsonschema": "^1.4.0",
-    "mini-css-extract-plugin": "^1.3.3",
+    "mini-css-extract-plugin": "^2.1.0",
     "mocha": "^8.3.2",
     "mock-fs": "^4.13.0",
     "nock": "^13.0.5",
