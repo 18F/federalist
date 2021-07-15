@@ -157,7 +157,7 @@
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
     "sass": "^1.32.8",
-    "sass-loader": "^11.1.1",
+    "sass-loader": "^12.1.0",
     "serve": "^11.3.2",
     "shortid": "^2.2.16",
     "sinon": "^10.0.0",
