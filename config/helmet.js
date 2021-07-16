@@ -18,6 +18,12 @@ module.exports = {
         "'self'",
         'www.google-analytics.com',
       ],
+      'frame-ancestors': [
+        "'none'",
+      ],
+      'form-action': [
+        "'self'",
+      ],
     },
   },
   frameguard: {
