@@ -40,8 +40,10 @@ function serializeObject(build) {
     json.user = userSerializer.toJSON(build.User);
     delete json.User;
   }
-  json.site = siteSerializer.toJSON(build.Site);
-  delete json.Site;
+  if (build.Site) {
+    json.site = siteSerializer.toJSON(build.Site);
+    delete json.Site;
+  }
   return json;
 }
 
